@@ -2,6 +2,11 @@
 
 [Create React App](https://github.com/facebook/create-react-app).
 
+## GOOGLE NEWS API
+
+É necessário colar o valor do seu token de usuário na API do GOOGLE, no caminho:
+src/services/GoogleService.js
+
 ## Scripts disponíveis
 
 Na pasta raiz do projeto, você deve executar:
