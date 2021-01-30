@@ -1,0 +1,19 @@
+.Heading{
+    font-family: $font-family-highlight;
+    line-height: $line-height-distant;
+
+    @at-root #{&}--small{
+        font-size: $font-size-lg;
+        font-weight: $font-weight-bold;
+        color: $color-neutral-01;
+    }
+
+    @at-root #{&}__subtitle{
+        font-size: $font-size-md;
+        line-height: $line-height-medium;
+
+        font-family: $font-family-highlight;
+        font-weight: $font-weight-medium;
+        color: $color-neutral-02;
+    }
+}

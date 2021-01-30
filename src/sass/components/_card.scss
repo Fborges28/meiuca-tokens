@@ -1,0 +1,30 @@
+.Cards{
+    background-color: $color-neutral-04;
+    padding: $spacing-inset-md;
+}
+
+.CardContent{
+    margin-bottom: $spacing-stack-sm;
+
+    .Heading{
+        @extend .spacing-stack--xxxs;
+
+        @at-root #{&}__subtitle{
+            @extend .spacing-stack--xxs;
+        }
+    }
+
+    .Paragraph{
+        @extend .spacing-stack--sm;
+        justify-self: start;
+    }
+}
+
+@media screen and (min-width: 1366px){
+   .Cards{
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        grid-column-gap: $spacing-stack-xs;
+        justify-content: center;
+   }
+}

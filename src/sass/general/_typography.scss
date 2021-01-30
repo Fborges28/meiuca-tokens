@@ -1,0 +1,81 @@
+html,body{
+    font-family: $font-family-base;
+}
+
+.line-height{
+    @at-root #{&}--tight{
+        line-height: $line-height-tight;
+    }
+
+    @at-root #{&}--medium{
+        line-height: $line-height-medium;
+    }
+
+    @at-root #{&}--distant{
+        line-height: $line-height-distant;
+    }
+
+    @at-root #{&}--superdistant{
+        line-height: $line-height-superdistant;
+    }
+}
+
+.font-size{
+    @at-root #{&}--xxxs{
+        font-size: $font-size-xxxs;
+    }
+
+    @at-root #{&}--xxs{
+        font-size: $font-size-xxs;
+    }
+
+    @at-root #{&}--xs{
+        font-size: $font-size-xs;
+    }
+
+    @at-root #{&}--sm{
+        font-size: $font-size-sm;
+    }
+
+    @at-root #{&}--md{
+        font-size: $font-size-md;
+    }
+
+    @at-root #{&}--lg{
+        font-size: $font-size-lg;
+    }
+
+    @at-root #{&}--xl{
+        font-size: $font-size-xl;
+    }
+
+    @at-root #{&}--xxl{
+        font-size: $font-size-xxl;
+    }
+
+    @at-root #{&}--xxxl{
+        font-size: $font-size-xxxl;
+    }
+
+    @at-root #{&}--display{
+        font-size: $font-size-display;
+    }
+
+    @at-root #{&}--giant{
+        font-size: $font-size-giant;
+    }
+}
+
+.font-weight{
+    @at-root #{&}--bold{
+        font-weight: $font-weight-bold;
+    }
+
+    @at-root #{&}--medium{
+        font-weight: $font-weight-medium;
+    }
+
+    @at-root #{&}--regular{
+        font-weight: $font-weight-regular;
+    }
+}
