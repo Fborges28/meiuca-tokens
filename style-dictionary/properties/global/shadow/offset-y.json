@@ -1,0 +1,14 @@
+{
+    "shadow": {
+        "offset":{
+            "y": {
+                "level": {
+                    "1": { "value": "4px" },
+                    "2": { "value": "8px" },
+                    "3": { "value": "16px" },
+                    "4": { "value": "16px" }
+                }
+            }
+        }
+    }
+}

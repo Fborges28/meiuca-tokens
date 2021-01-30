@@ -1,0 +1,14 @@
+{
+    "shadow": {
+        "blur": {
+            "radius": {
+                "level": {
+                    "1": { "value": "8px" },
+                    "2": { "value": "24px" },
+                    "3": { "value": "32px" },
+                    "4": { "value": "48px" }
+                }
+            }
+        }
+    }
+}

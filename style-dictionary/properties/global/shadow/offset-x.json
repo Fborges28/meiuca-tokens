@@ -1,0 +1,9 @@
+{
+    "shadow":{
+        "offset": {
+            "x": {
+                "none": { "value": "0px" }
+            }
+        }
+    }
+}

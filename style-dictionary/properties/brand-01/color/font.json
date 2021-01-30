@@ -1,0 +1,7 @@
+{
+  "color": {
+    "font": {
+      "tertiary" : { "value": "{color.neutral.01.value}" }
+    }
+  }
+}

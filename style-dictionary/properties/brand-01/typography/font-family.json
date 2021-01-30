@@ -1,0 +1,9 @@
+{
+    "font": {
+        "family": {
+            "base"      : { "value": "Archivo" },
+            "content"   : { "value": "Archivo" },
+            "highlight" : { "value": "Archivo" }
+        }
+    }
+}

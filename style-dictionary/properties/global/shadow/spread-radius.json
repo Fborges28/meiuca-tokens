@@ -1,0 +1,9 @@
+{
+    "shadow":{
+        "spread":{
+            "radius":{
+                "default": { "value": 0}
+            }
+        }
+    }
+}
